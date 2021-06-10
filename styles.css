@@ -1,0 +1,105 @@
+* {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  line-height: 30px;
+}
+
+.ladi-headline {
+  margin: 20px auto;
+}
+h3.ladi-headline {
+  text-align:  center;
+}
+h3{
+  margin: 0 auto;
+}
+
+video {
+  border-radius: 10px;
+}
+
+h1 {
+  color: rgb(255, 232, 0);
+  font-size: 49px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  text-shadow: rgb(200 200 200) 1px -1px 5px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.box-price {
+  width: 95%;
+  margin: 20px auto;
+  background: rgba(63, 59, 199, 1.0);
+  background: -webkit-linear-gradient(180deg, rgba(63, 59, 199, 1.0), rgba(98, 37, 183, 1.0));
+  background: linear-gradient(180deg, rgba(63, 59, 199, 1.0), rgba(98, 37, 183, 1.0));
+  border-radius: 6px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  animation-name: swing;
+  -webkit-animation-name: swing;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+}
+
+.title {
+    color: rgb(226, 35, 55);
+    font-size: 1.0em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.6;
+    text-shadow: rgb(150 50 50) 1px 1px 2px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper > img{
+  margin: 0 auto;
+  height: 200px; 
+}
+
+.wrapper .content-box{
+  text-align: left;
+  box-shadow: 0px 10px 20px -15px #000;
+  -webkit-box-shadow: 0px 10px 20px -15px #000;
+  background-color: rgb(247, 247, 247);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.button-animate {
+    animation-name: heartBeat;
+    -webkit-animation-name: heartBeat;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+.button {
+  background: #ff6a00;
+  background: -webkit-linear-gradient(180deg, #ff6a00, #ee0979);
+  background: linear-gradient(180deg, #ff6a00, #ee0979);
+  color: #FFF;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
