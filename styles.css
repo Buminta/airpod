@@ -177,3 +177,8 @@ li > i {
   background: #EEE;
   padding: 5px;
 }
+
+input {
+  -webkit-user-select: text;
+  user-select: text;
+}
